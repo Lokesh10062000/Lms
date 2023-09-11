@@ -1,0 +1,27 @@
+.container{
+    margin: 0%;
+    padding: 0%;
+}
+.welcome{
+    padding-top: 20%;
+}
+
+.hImg{
+    height: 100%;
+    width: 100%;
+}
+.btn{
+    width: 16rem;
+    height: 3rem;
+    border-radius: 0px;
+    color: aliceblue;
+    cursor: pointer;
+    background-color: rgba(54, 10, 211, 0.856);
+}
+.btn:hover{
+    background-color:  rgba(70, 10, 211, 0.856);
+}
+.hedding{
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+}

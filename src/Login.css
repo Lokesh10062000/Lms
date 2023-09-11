@@ -1,0 +1,68 @@
+.row{
+    display: flex;
+    border: 1px solid black;
+    width: 30%;
+}
+.signIn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    background-color: black;
+}
+.login{
+    background-color: aliceblue;
+    padding: 50px;
+}
+.input-field{
+    position: relative;
+
+}
+.input1{
+    width: 320px;
+    height: 52px;
+    border-radius: 5px;
+    font-size: 18px;
+    padding: 0 15px;
+    border: 1px solid rgb(184, 181, 181);
+    background-color: transparent;
+    color: rgb(4, 4, 4);
+    outline: none;
+}
+.label1{
+    position: absolute;
+    top: 50%;
+    left: 55px;
+    transform:translateY(-50%);
+    color: black;
+    font-size: 17px;
+    pointer-events: none;
+    transition: 0.3s;
+}
+.input1:focus{
+    border: 2px solid blue;
+}
+
+.input1:focus ~ .label1 {
+    top: 0;
+    left: 55px;
+    font-size: 16px;
+    padding: 0 2px;
+    background: #fff;
+    color: blue;
+}
+/* .input1:valid ~ .label1{
+    top: 0;
+    left: 55px;
+    font-size: 16px;
+    padding: 0 2px;
+    background: #fff;
+} */
+.active {
+    top: 0;
+    left: 55px;
+    font-size: 16px;
+    padding: 0 2px;
+    background: #fff;
+}
+   
